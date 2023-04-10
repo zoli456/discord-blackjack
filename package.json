@@ -28,6 +28,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.9.0",
-    "array-shuffle": "2.0.0"
+    "shuffle-array": "^1.0.1"
   }
 }
