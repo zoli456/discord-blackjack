@@ -1,4 +1,4 @@
-const shuffle = require("array-shuffle")
+import {shuffle} from ("array-shuffle")
 const games = new Set();
 const Discord = require("discord.js");
 const Collect = require("./collect")
