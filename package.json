@@ -4,7 +4,6 @@
   "description": "A blackjack game for Discord",
   "main": "index.js",
   "typings": "types/index.d.ts",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,6 +28,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.9.0",
-    "array-shuffle": "3.0.0"
+    "array-shuffle": "2.0.0"
   }
 }
