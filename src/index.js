@@ -1,4 +1,4 @@
-const shuffle = require ("array-shuffle")
+const arrayShuffle = require ("array-shuffle")
 const games = new Set();
 const Discord = require("discord.js");
 const Collect = require("./collect")
@@ -202,11 +202,11 @@ module.exports = async (message, options) => {
     let row1 = { type: 1, components: [hitbtn, standbtn] }
     let row2 = { type: 1, components: [cancelbtn] }
 
-    shuffle(DECK)
-    shuffle(DECK)
-    shuffle(DECK)
-    shuffle(DECK)
-    shuffle(DECK)
+    arrayShuffle(DECK)
+    arrayShuffle(DECK)
+    arrayShuffle(DECK)
+    arrayShuffle(DECK)
+    arrayShuffle(DECK)
 
     let currentDeck = DECK
     let testDeck = [
