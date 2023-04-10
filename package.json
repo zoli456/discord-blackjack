@@ -27,7 +27,7 @@
   "author": "Ashish Emmanuel",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^13.6.0",
-    "shuffle-array": "^1.0.1"
+    "discord.js": "^14.9.0",
+    "shuffle-array": "^3.0.0"
   }
 }
